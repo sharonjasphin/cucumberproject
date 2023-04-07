@@ -36,5 +36,9 @@ public class login {
 	@Then("logout")
 	public void logout() {
 		System.out.println("Bye");
+	} 
+	@When("Click Login")
+	public void click_login1() {
+		System.out.println("How are you");
 	}
 }
